@@ -52,6 +52,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="SessionTokenBehavior.cs" />
+    <Compile Include="SessionTokenInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
